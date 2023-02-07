@@ -28,7 +28,7 @@ ul {
 }
 
 .debug .bg-grey {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .debug .bg-green {
@@ -178,22 +178,12 @@ button {
 /* #endregion HEADER*/
 
 /* #region MAIN */
-.debug section {
-    padding: 2rem;
+section {    
     display: flex;
+    height: 100vh;
 }
 
-/* .debug .image {
-    background-color: #1e90ff;
-    height: 400px;
-    border: 2px dashed black;
-} */
-
-.debug .description {
-    /* background-color: #ffc0cb; */
-    height: 500px;
-    /* border: 2px dashed black; */
-    
+.description {
     padding: 2rem 5rem;
 }
 

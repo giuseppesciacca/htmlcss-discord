@@ -28,24 +28,8 @@ ul {
     display: flex;
 }
 
-.debug .bg-grey {
+.bg-grey {
     background-color: #f6f6f6;
-}
-
-.debug .bg-green {
-    background-color: #228b22;
-}
-
-.debug .bg-pink {
-    background-color: #f08080;
-}
-
-.debug .bg-azure {
-    background-color: #20b2aa;
-}
-
-.debug .bg-light-azure {
-    background-color: #add8e6;
 }
 
 .cw-7 {
@@ -68,15 +52,16 @@ button {
     border: none;
 }
 
-.wave-top{
+.wave-top {
     color: #f6f6f6;
     margin-bottom: -5px;
 }
 
-.wave-bottom{
+.wave-bottom {
     background-color: #f6f6f6;
     color: white;
 }
+
 /* #endregion COMMON e Utilities */
 
 /* #region HEADER */
@@ -273,10 +258,11 @@ section {
 
 #place-for-talk>p {
     color: white;
+    line-height: 1rem;
 }
 
 #place-for-talk img {
-    height: 20px;
+    height: 16px;
 }
 
 #footer-top h4 {

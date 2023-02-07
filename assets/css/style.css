@@ -70,7 +70,7 @@ button {
 /* #endregion COMMON e Utilities */
 
 /* #region HEADER */
-/* #region HEADER top */
+/* #region HEADER top (nav) */
 
 #header-top {
     justify-content: center;
@@ -134,7 +134,8 @@ button {
     padding: 4rem 2rem;
 }
 
-.welcome-container>h1+p {
+.welcome-container>h1,
+.welcome-container>p {
     text-align: center;
     padding: 1rem;
 }
@@ -178,34 +179,58 @@ button {
 /* #endregion HEADER*/
 
 /* #region MAIN */
-section {    
+section {
     display: flex;
-    height: 100vh;
 }
 
 .description {
     padding: 2rem 5rem;
 }
 
-.description h2{
+.description h2 {
     font-size: 50px;
 }
 
-.description>p{
+.description>p {
     font-size: 20px;
     text-align: left;
-    line-height: 1.75rem;    
+    line-height: 1.75rem;
     margin: 1rem 0;
 }
 
 /* big -section */
-.debug main section:last-of-type {
-    height: 100vh;
+
+#big-section>div {
+    text-align: center;
+
 }
 
-.debug main section:last-of-type>.container {
-    height: 500px;
-    border: 2px dashed black;
+#big-section h2 {
+    font-size: 50px;
+}
+
+#big-section p {
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 1.75rem;
+}
+
+#new-adventure {
+    padding: 2rem;
+}
+
+#big-section h3 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+#big-section a {
+    background-color: #8ea1e1;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 1.5rem;
 }
 
 /* #endregion MAIN */

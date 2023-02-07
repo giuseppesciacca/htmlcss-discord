@@ -248,8 +248,32 @@ section {
     height: 100%;
 }
 
-.debug #footer-top .container>section {
-    border: 2px dashed white;
+#footer-top>div.container>section {
+    flex-direction: column;
+    padding: 3rem;
+}
+
+#place-for-talk>h3 {
+    color: #7188d9;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+#place-for-talk>p {
+    color: white;
+}
+
+#place-for-talk img {
+    height: 20px;
+}
+
+#footer-top h4 {
+    color: #7188d9;
+}
+
+#footer-top li {
+    margin: 1rem 0;
+    color: white;
 }
 
 /* #endregion FOOTER-TOP */
@@ -265,10 +289,18 @@ section {
 }
 
 .debug footer .logo,
-.btn-footer {
-    border: 2px dashed black;
+#register {
     padding: 0.5rem;
     margin: 1rem 0;
+}
+
+#footer-bottom #register {
+    background-color: #8ea1e1;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 1.5rem;
 }
 
 /* #endregion FOOTER-BOTTOM */

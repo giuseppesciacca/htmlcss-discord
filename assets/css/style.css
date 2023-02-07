@@ -82,20 +82,18 @@ button {
     align-items: center;
 }
 
-.debug #header-top .container>.logo,
+#header-top .container>.logo,
 #link,
 #login {
-    /* background-color: #daa520; */
-    /* border: 2px dashed black; */
     padding: 0.5rem;
 }
 
-.debug header div .logo,
+#header-top .logo,
 #login {
     flex-basis: 20%;
 }
 
-.debug header div #link {
+#header-top #link {
     flex-basis: 80%;
     justify-content: center;
 }
@@ -106,7 +104,7 @@ button {
     font-weight: bold;
 }
 
-.debug #header-top #login {
+#header-top #login {
     justify-content: flex-end;
     font-weight: bold;
 }
@@ -121,17 +119,14 @@ button {
 /* #endregion HEADER top*/
 
 /* #region HEADER bottom */
-.debug #header-bottom {
-    /* background-color: #00008b; */
+#header-bottom {
     padding: 5rem 2rem;
     background-image: url(/assets/img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.debug .titlecontainer {
-    /* background-color: #ee82ee; */
-    /*     border: 2px dashed black; */
+.welcome-container {
     margin: auto;
     width: calc((100% / 12) * 6);
     color: white;
@@ -139,44 +134,46 @@ button {
     padding: 4rem 2rem;
 }
 
-.titlecontainer>h1,
+.welcome-container>h1,
 p {
     text-align: center;
     padding: 1rem;
 }
 
-.titlecontainer>h1 {
+.welcome-container>h1 {
     font-size: 50px;
 }
 
-.titlecontainer>p {
+.welcome-container>p {
     font-size: 23px;
     line-height: 2rem;
 }
 
-.titlecontainer>div{
+.welcome-container>div {
     text-align: center;
     padding: 1rem;
 }
 
-.titlecontainer span{
+.welcome-container a {
     margin: 0 2rem;
 }
 
-.titlecontainer #download-mac{
+.welcome-container #download-mac,
+#open-in-browser {
+    height: 100%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.welcome-container #download-mac {
     background-color: white;
-    height: 100%;
-    padding: 1rem;
-    border-radius: 1.5rem;
+    color: #23272a;
 }
 
-.titlecontainer #open-in-browser{
+.welcome-container #open-in-browser {
     background-color: #23272a;
-    height: 100%;
-    padding: 1rem;
-    border-radius: 1.5rem;
+    color: white;
 }
-
 
 /* #endregion HEADER bottom*/
 /* #endregion HEADER*/

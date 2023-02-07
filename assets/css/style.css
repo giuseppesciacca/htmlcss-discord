@@ -16,7 +16,8 @@ a {
 
 .container {
     width: calc((100% / 12) * 8);
-    margin: auto
+    margin: auto;
+    max-width: 1140px;
 }
 
 ul {
@@ -67,6 +68,9 @@ button {
     border: none;
 }
 
+.wave{
+    
+}
 /* #endregion COMMON e Utilities */
 
 /* #region HEADER */
@@ -181,6 +185,7 @@ button {
 /* #region MAIN */
 section {
     display: flex;
+    padding: 10rem 0;
 }
 
 .description {
@@ -198,7 +203,7 @@ section {
     margin: 1rem 0;
 }
 
-/* big -section */
+/* #region big-section */
 
 #big-section>div {
     text-align: center;
@@ -217,6 +222,7 @@ section {
 
 #new-adventure {
     padding: 2rem;
+    position: relative;
 }
 
 #big-section h3 {
@@ -233,19 +239,19 @@ section {
     border-radius: 1.5rem;
 }
 
+/* #endregion big-section */
 /* #endregion MAIN */
 
 /* #region FOOTER */
 
 /* #region FOOTER-TOP */
-.debug #footer-top {
+#footer-top {
     background-color: #23272a;
-    height: 500px;
     padding: 1rem 0 2rem 0;
 }
 
-.debug #footer-top .container {
-    height: 100%;
+#footer-top .container {
+    border-bottom: 1px solid #8ea1e1;
 }
 
 #footer-top>div.container>section {
@@ -279,19 +285,19 @@ section {
 /* #endregion FOOTER-TOP */
 
 /* #region FOOTER-BOTTOM */
-.debug #footer-bottom {
+#footer-bottom {
     background-color: #23272a;
     padding: 1rem 0 0 0;
 }
 
-.debug #footer-bottom .container {
+#footer-bottom .container {
     justify-content: space-between;
 }
 
-.debug footer .logo,
+footer .logo,
 #register {
     padding: 0.5rem;
-    margin: 1rem 0;
+    margin-bottom: 1rem;
 }
 
 #footer-bottom #register {

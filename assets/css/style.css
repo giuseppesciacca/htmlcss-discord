@@ -265,6 +265,19 @@ section {
     height: 16px;
 }
 
+#social-icon{
+    color: white;
+    margin: 1.5rem 0;
+}
+
+#social-icon i{
+    padding: 0 0.5rem;
+}
+
+.fa-twitter{
+    margin-left: -0.5rem;
+}
+
 #footer-top h4 {
     color: #7188d9;
 }
